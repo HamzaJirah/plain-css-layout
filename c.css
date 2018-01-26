@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+  width: 100%;
+  height: 100px;
+  background-color: aqua;
+}
+
+#nav {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(42, 6, 100);
+  margin-top: 10px;
+}
+
+#banner {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(151, 17, 144);
+  margin-top: 10px;
+}
+
+#content {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(59, 151, 17);
+  margin-top: 10px;
+}
+.one {
+  width: 50%;
+  height: 100%;
+  background-color: black;
+}
+
+.two {
+  width: 48%;
+  height: 100%;
+  background-color: black;
+  margin-left: 1.5%;
+}
+.sub-one{
+  width: 100%;
+  height: 30%;
+  background-color: blue;
+}
+
+.sub-two {
+  width: 100%;
+  height: 30%;
+  background-color: rgb(255, 0, 64);
+  margin-top: 2%;
+}
+.sub-three {
+  width: 100%;
+  height: 30%;
+  background-color: rgb(0, 255, 76);
+  margin-top: 2%;
+  bottom: 0;
+}
+#content .one, .two {
+  float: left;
+}
+#footer {
+  width: 100%;
+  height: 200px;
+  background-color: rgba(221, 8, 37, 0.274);
+  margin-top: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.foot1, .foot2, .foot3 {
+  width: 30%;
+  height: 71%;
+  float: left;
+  background-color: red;
+  margin-left: 1.5%;
+}
